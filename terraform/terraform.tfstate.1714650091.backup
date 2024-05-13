@@ -1,0 +1,59 @@
+{
+  "version": 4,
+  "terraform_version": "1.5.7",
+  "serial": 12,
+  "lineage": "91b94f13-fe69-9471-150a-67ce5749dc25",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "azurerm_network_interface",
+      "name": "example",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": []
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_resource_group",
+      "name": "app",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "/subscriptions/aec32714-2340-435c-9013-b4542eeca2b6/resourceGroups/sftp-resources",
+            "location": "eastus",
+            "managed_by": "",
+            "name": "sftp-resources",
+            "tags": {},
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo1NDAwMDAwMDAwMDAwLCJkZWxldGUiOjU0MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjo1NDAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIwIn0="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_subnet",
+      "name": "example",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": []
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_virtual_machine",
+      "name": "example",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": []
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_virtual_network",
+      "name": "example",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": []
+    }
+  ],
+  "check_results": null
+}

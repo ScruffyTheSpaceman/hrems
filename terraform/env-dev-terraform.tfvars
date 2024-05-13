@@ -1,0 +1,10 @@
+client_id       = "06e9f70f-9cbc-45ea-9490-eee9abc1311c"
+client_secret   = "WQ_8Q~V74K5p3Eu4nZy5CliaVJX3Wi9qwMJZ5cQz"
+tenant_id       = "5bcf24e1-056f-4453-a343-e3fc42a9a711"
+subscription_id = "aec32714-2340-435c-9013-b4542eeca2b6"
+resource_group_name = "sftp-resources"
+location            = "East US"  # Choose an Azure region that is best for your scenario
+container_name      = "sftp-container"
+container_image     = "egorcloud7works/cloud7:latest"
+container_cpu       = 0.5  # Adjust based on your app's requirements
+container_memory    = 1.5  # Memory in GB
